@@ -10,4 +10,4 @@ RUN apt-get update && apt-get install --no-install-recommends -y golang-go
 
 # Install CLANG tools
 RUN apt-get update && apt-get install --no-install-recommends -y \
-      git cmake clang libssl-dev qtbase5-dev qtdeclarative5-dev libqt5svg5-dev qttools5-dev
+      git clang libssl-dev qtbase5-dev qtdeclarative5-dev libqt5svg5-dev qttools5-dev cmake
