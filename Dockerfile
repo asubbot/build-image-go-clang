@@ -13,4 +13,4 @@ RUN apt-get update && apt-get install --no-install-recommends -y \
     clang libssl-dev qtbase5-dev qtdeclarative5-dev libqt5svg5-dev qttools5-dev
 
 # Install cmake without "--no-install-recommends" option
-RUN apt-get install -y cmake 
+RUN apt-get install -y cmake git
